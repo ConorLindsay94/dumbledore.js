@@ -1,0 +1,59 @@
+.gandalf {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.gandalf__icons {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+@media only screen and (min-width: 970px) {
+  .gandalf__icons {
+    width: 70%;
+  }
+}
+.gandalf__icons--vertical {
+  flex-direction: column;
+}
+.gandalf__icons__line {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 98%;
+  height: 5px;
+  z-index: 0;
+}
+.gandalf__icons__line--vertical {
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 5px;
+  height: 98%;
+}
+.gandalf__icons__icon {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  z-index: 10;
+}
+.gandalf__icons__icon-circle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 50px;
+  z-index: 10;
+}
+.gandalf__icons__icon-circle img {
+  height: 20px;
+  width: 20px;
+}

@@ -1,0 +1,57 @@
+.gandalf {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  &__icons {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    @media only screen and (min-width: 970px) {
+      width: 70%;
+    }
+    &--vertical {
+      flex-direction: column;
+    }
+    &__line {
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      width: 98%;
+      height: 5px;
+      z-index: 0;
+      &--vertical {
+        top: 0;
+        bottom: 0;
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 5px;
+        height: 98%;
+      }
+    }
+    &__icon {
+      position: relative;
+      height: 40px;
+      width: 40px;
+      z-index: 10;
+      &-circle {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        border-radius: 50px;
+        z-index: 10;
+        img {
+          height: 20px;
+          width: 20px;
+        }
+      }
+    }
+  }
+}
