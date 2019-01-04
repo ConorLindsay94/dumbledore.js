@@ -23,7 +23,7 @@ this.gandalf = new Gandalf({
 To dynamically set the progress of the bar, you must run the `setActive(ICON_INDEX)` function. For example, once you progress in the wizard you must pass the next icon index to this function so the bar progresses.
 ```javascript
     // User has progressed to the third step in the wizard, so we pass 2 to the function.
-    this.setActive(2);
+    this.gandalf.setActive(2);
 ```
 
 ### Options
