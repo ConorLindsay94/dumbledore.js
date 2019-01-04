@@ -1,11 +1,11 @@
 {
-  "name": "gandalf.js",
+  "name": "dumbledore.js",
   "version": "1.0.0",
-  "description": "",
+  "description": "A small, lightweight javascript module to create an installation wizard-like progress bar.",
   "main": "gandalf.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Conor Lindsay",
+  "license": "MIT"
 }

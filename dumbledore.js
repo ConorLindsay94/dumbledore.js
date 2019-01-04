@@ -1,4 +1,4 @@
-export default class Gandalf {
+export default class Dumbeldore {
 
   constructor(options) {
     if (!options.icons) {

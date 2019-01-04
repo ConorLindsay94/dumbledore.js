@@ -1,12 +1,12 @@
-# Gandalf.js
+# Dumbledore.js
 
 A small, lightweight javascript module to create an installation wizard-like progress bar.
 
-![Merlin](http://oi67.tinypic.com/2mga1zd.jpg)
+![Dumbledore](http://oi67.tinypic.com/2mga1zd.jpg)
 
 ### Example Usage
 ```javascript
-this.gandalf = new Gandalf({
+this.dumbledore = new Dumbledore({
     container: '.main',
     baseColor: '#D8D8D8',
     activeColor: '#F8BC42',
@@ -23,7 +23,7 @@ this.gandalf = new Gandalf({
 To dynamically set the progress of the bar, you must run the `setActive(ICON_INDEX)` function. For example, once you progress in the wizard you must pass the next icon index to this function so the bar progresses.
 ```javascript
 // User has progressed to the third step in the wizard, so we pass 2 to the function.
-this.gandalf.setActive(2);
+this.dumbledore.setActive(2);
 ```
 
 ### Options
