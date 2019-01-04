@@ -1,4 +1,4 @@
-export default class RRWizard {
+export default class Gandalf {
 
   constructor(options) {
     if (!options.icons) {
