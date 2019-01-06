@@ -2,7 +2,7 @@
   "name": "dumbledore.js",
   "version": "1.0.1",
   "description": "A small, lightweight javascript module to create an installation wizard-like progress bar.",
-  "main": "gandalf.js",
+  "main": "dumbledore.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
