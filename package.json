@@ -1,6 +1,6 @@
 {
   "name": "dumbledore.js",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A small, lightweight javascript module to create an installation wizard-like progress bar.",
   "main": "dumbledore.js",
   "scripts": {
