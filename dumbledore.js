@@ -66,9 +66,9 @@ export default class Dumbeldore {
     const wizardLine = document.createElement('div');
     const circles = [];
 
-    wizardContainer.classList.add('rr-wizard');
-    iconContainer.classList.add('rr-wizard__icons');
-    wizardLine.classList.add('rr-wizard__icons__line');
+    wizardContainer.classList.add('dumbledore');
+    iconContainer.classList.add('dumbledore__icons');
+    wizardLine.classList.add('dumbledore__icons__line');
 
     iconContainer.appendChild(wizardLine);
 
@@ -76,8 +76,8 @@ export default class Dumbeldore {
       const iconWrapper = document.createElement('div');
       const circle = document.createElement('div');
 
-      iconWrapper.classList.add('rr-wizard__icons__icon');
-      circle.classList.add('rr-wizard__icons__icon-circle');
+      iconWrapper.classList.add('dumbledore__icons__icon');
+      circle.classList.add('dumbledore__icons__icon-circle');
       circle.style.backgroundColor = this.baseColor;
       
       circle.appendChild(icon);
@@ -118,8 +118,8 @@ export default class Dumbeldore {
 
   setVertical() {
     this.wizardContainer.style.height = `${this.icons.length * 100}px`;
-    this.iconContainer.classList.add('rr-wizard__icons--vertical');
-    this.wizardLine.classList.add('rr-wizard__icons__line--vertical');
+    this.iconContainer.classList.add('dumbledore__icons--vertical');
+    this.wizardLine.classList.add('dumbledore__icons__line--vertical');
   }
 
 };
