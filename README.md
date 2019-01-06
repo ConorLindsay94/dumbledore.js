@@ -20,6 +20,16 @@ this.dumbledore = new Dumbledore({
 });
 ```
 
+Import the dumbledore css or scss file.
+```css
+@import url("node_modules/dumbledore.js/dumbledore.css");
+```
+
+```scss
+@import "node_modules/dumbledore.js/scss/dumbledore.scss";
+```
+
+
 To dynamically set the progress of the bar, you must run the `setActive(ICON_INDEX)` function. For example, once you progress in the wizard you must pass the next icon index to this function so the bar progresses.
 ```javascript
 // User has progressed to the third step in the wizard, so we pass 2 to the function.
